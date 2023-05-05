@@ -29,9 +29,9 @@ def app():
     tokenizer = ToktokTokenizer()
 
     st.title("Sentiment Analysis")      
-    st.subheader("Coded by: Frenchie E. Chua BSCS 3A")
+    st.subheader("Rey Matthew G. Parreño, BSCS 3A")
     
-    st.subheader('Do you think that remote work is the future of the IT industry?')
+    st.subheader('Would you feel a sense of nostalgia and sadness if the traditional jeepneys were completely replaced by modern ones?')
      
 
      #The following function definitions show the codes need to perform each task
