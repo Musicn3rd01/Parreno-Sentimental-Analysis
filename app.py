@@ -101,15 +101,15 @@ def app():
 
         #Randomly select samples
         label_0=df[df['label']==0].sample(n=12)
-        label_1=df[df['label']==1].sample(n=13)
+        label_1=df[df['label']==1].sample(n=12)
 
         train = pd.concat([label_1, label_0])
 
         #remember this very useful function to randomly rearrange the dataset
         train = shuffle(train)
 
-        st.write('We then randomly select 500 samples of positive reviews and \
-        500 samples of negative reviews.  Remember the labels were added by \
+        st.write('We then randomly select 12 samples of positive reviews and \
+        12 samples of negative reviews.  Remember the labels were added by \
         human reviewers and may not be the real sentiment.  We will use AI \
         to generate a new setiment value based on the analysis of the actual \
         text of the review.')
