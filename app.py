@@ -94,7 +94,7 @@ def app():
         return text
 
     if st.button('Load Dataset'):  
-        df = pd.read_csv('Data.csv')
+        df = pd.read_csv('data.csv')
         st.write(df.head(20))
         st.write('Dataset shape: ')
         st.text(df.shape)
